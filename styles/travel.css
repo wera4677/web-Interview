@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url("/images/places/interview.jpg");
+  background-image: url("../images/places/interview.jpg");
   background-position: center; /*이미지 중앙으로*/
   background-size: cover; /*이미지 크기조정*/
 }
