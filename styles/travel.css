@@ -1,0 +1,95 @@
+#hero {
+  height: 800px;
+  background-image: url("/images/places/interview.jpg");
+  background-position: center; /*이미지 중앙으로*/
+  background-size: cover; /*이미지 크기조정*/
+}
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 110, 170, 0.8); /*배경색과 투명도 설정*/
+  box-shadow: 2px 4px 8px rgb(68, 67, 67); /*그림자*/
+  border-radius: 8px; /*둥글게*/
+  text-align: center;
+  padding: 50px 0; /*공간확보*/
+  margin: 0 auto; /*윗쪽 중앙배치*/
+  position: relative; /*위아래 변경가능*/
+  top: 200px;
+}
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase; /*대문자*/
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Jua'; /* 변경된 폰트 */
+  letter-spacing: 5px;  /* 추가사항 */
+  text-shadow: 4px 3px 2px rgb(0,0,0); /* 추가사항 */
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  /* font-weight: 300; 폰트 가볍고 무겁게 - 삭제*/
+  /* margin-bottom: 32px; 삭제 */
+  font-family: 'Jua'; /* 추가 사항 */
+  word-spacing: 15px;  /* 추가 사항 */
+  text-shadow: 4px 3px 2px rgb(0,0,0); /* 추가사항 */
+}
+#hero-content a {
+  text-decoration: none;
+  background-color:  #DFFBFB; /*변경점*/ 
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  /* font-weight: lighter; 삭제점 */ 
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  font-family: 'Jua'; /*추가 사항*/
+  letter-spacing: 2px; /*추가 사항*/
+}
+#hero-content a:hover {
+  background-color: rgba(51, 90, 170, 0.8);; /*마우스 반응해서 색바꾸기 - 변경점*/
+}
+
+/*여기서부터 바꿈*/
+#introduce {
+  padding: 24px;
+  background: linear-gradient(0deg, #c1e4f3, #e2dfdf,#c1e4f3);
+  /*그라데이션 기능  deg는 각도 */
+
+}
+
+#introduce h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 52px;
+  color: rgb(47, 56, 55);
+  margin-top: 30px;
+  font-family: 'Acme', sans-serif;
+}
+
+#introduce img {
+  width: 435px;
+  height: 560px;
+  margin-right:60px;
+  border-radius: 10%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 30px 30px;
+}
+.impormation h3 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size:45px;
+  margin:3px;
+}
+.impormation p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+}

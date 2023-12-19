@@ -1,0 +1,72 @@
+body {
+  font-family: 'Raleway', sans-serif; 
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;/*헤터 윗쪽에고정*/
+  width: 100%;
+  box-sizing: border-box;/*삐져나오는 부분 정리*/
+}
+#page-logo a {
+  padding: 10px;
+  font-family: "Jua", sans-serif; /* 변경점 */
+  color: rgb(175, 208, 210); /*변경점 */
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase; /*모든문자를 대문자로 표시 (소문자 lowercase)*/
+  text-shadow: 3px 1px 2px rgb(0, 0, 0); /*변경점*/
+}
+
+header ul {
+  display: flex;
+  list-style: none; /* 추가 사항*/
+}
+header li {
+  margin-left: 20px;
+}
+header a {
+  color: rgb(175, 208, 210);/* 변경점 */
+  text-decoration: none;
+  font-size: 25px;  /*변경점*/
+  padding: 12px;
+  text-shadow: 2px 1px 2px rgb(0,0,0); /*변경점*/
+  border-radius: 6px;  
+  font-family: "Jua", sans-serif; /*변경점*/
+}
+header nav a:hover {
+  color: rgb(0,0,0); /*변경점*/
+  background-color: rgb(175, 208, 210,0.8);/*변경점*/
+}
+
+
+footer {
+  background: linear-gradient(70deg,rgb(152,148,148),rgb(145,139,139));
+  padding: 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: center; /*양옆 공간 확보후 중앙 고정*/
+
+}
+footer li {
+  width: 80px;
+  height: 80px;
+  margin: 50px 50px;
+}
+footer img {
+  width: 100%;
+  height: 100%;
+}
+
+.p2{
+  line-height: 1.5;
+}
